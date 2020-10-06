@@ -1,0 +1,265 @@
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: #000033;
+    
+}
+
+h2.header-top {
+    padding: 1rem;
+    color: gold;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-collapse{
+    display: none;
+}
+
+nav {
+    padding: 0.8rem;
+    display: flex;
+}
+
+nav.row,
+.navbar-brand {
+    flex: 0.5;
+}
+
+.nav-item a {
+    border: 1px solid gold;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: gold;
+    margin: 3px;
+    padding: 5px 7px;
+    border-radius: 7px;
+}
+
+.nav-item a:hover {
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+}
+
+.drop-down {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-down-content {
+    display: none;
+    position: absolute;
+    background-color: gold;
+    color: black;
+    width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop-down-content a {
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-content a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.drop-down:hover .drop-down-content {
+    display: block;
+}
+
+.drop-down:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*-----------------section-1--------------*/
+
+.section-1{
+    padding: 100px 0;
+}
+.section-1 h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+.package-img img{
+    width: 100%;
+}
+.price{
+    background-color: gold;
+    color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    left: 20px;
+    bottom: -25px;
+    position: absolute;
+    box-shadow: 4px 4px 2px 1px rgb(0,0,0,0.7);
+}
+.package-img{
+    position: relative;
+}
+.rating{
+    padding: 6px;
+    float: right;
+    background-color: black;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.section-1 .fa{
+    font-size: 15px;
+    color: gold;
+}
+.package-details{
+    padding: 20px;
+    text-align: justify;
+}
+.package-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.package-details .fa{
+    margin-right: 5px;
+}
+.package-box{
+    box-shadow: 0 0 10px 1px rgb(37,73,214,0.18);
+    margin-bottom: 3rem;
+}
+.section-1 .button{
+    padding-top: 2rem;
+    text-align: center;
+}
+.section-1 a.button{
+    padding: 1rem 3rem;
+    box-shadow: 3px 3px 1px 0.5px rgb(0,0,0,0.5);
+    color: gold;
+    font-size: 20px;
+    background-color: black;
+    font-family: 'Kaushan Script', cursive;
+}
+.section-1 a.button:hover{
+    color: black;
+    background-color: gold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------footer--------------*/
+footer{
+    background-color: #000000;
+    padding: 50px 0;
+}
+footer .row{
+    margin: 1.5rem 0;
+}
+footer p{
+    text-align: center;
+    color: gold;
+    margin-bottom: 1rem;
+}
+.imp-links a{
+    padding: 1rem;
+    color: gold;
+    text-align: center;
+}
+.imp-links a:hover{
+    text-decoration: none;
+    color: #ffec80;
+}
+div.favicons{
+    text-align:center;
+    padding-left: 6rem;
+}
+div.favicon-style{
+    background-color: gold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.favicon-style .fa{
+    color: black;
+}
+.policies{
+    display: flex;
+}
+.policies a{
+    color: gold;
+}
+.policies a:hover{
+    color: #ffec80;
+    text-decoration: none;
+}
+.cpy-right a{
+    color: gold;
+}
+.cpy-right a:hover{
+    color: #ffec80;
+    text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+    .header-top {
+        display: none;
+    }
+    .nav-logo-2{
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+
+    .navbar-brand {
+        flex: none;
+    }
+
+    .nav-collapse{
+        display: block;
+        text-align: center;
+        
+    }
+    .nav-collapse h4{
+        color: #ffffff;
+        font-family: 'Dancing Script', cursive;
+    }
+    footer p{
+        text-align: left;
+    }
+    div.favicons{
+        padding: 0;
+        
+    }
+    div.favicon-style{
+        margin-bottom: 1rem;
+    }
+}

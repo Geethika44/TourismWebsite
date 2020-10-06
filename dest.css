@@ -1,0 +1,195 @@
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: #000033;
+    
+}
+
+h2.header-top {
+    padding: 1rem;
+    color: gold;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-collapse{
+    display: none;
+}
+
+nav {
+    padding: 0.8rem;
+    display: flex;
+}
+
+nav.row,
+.navbar-brand {
+    flex: 0.5;
+}
+
+.nav-item a {
+    border: 1px solid gold;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: gold;
+    margin: 3px;
+    padding: 5px 7px;
+    border-radius: 7px;
+}
+
+.nav-item a:hover {
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+}
+
+.drop-down {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-down-content {
+    display: none;
+    position: absolute;
+    background-color: gold;
+    color: black;
+    width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop-down-content a {
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-content a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.drop-down:hover .drop-down-content {
+    display: block;
+}
+
+.drop-down:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*-----------section-1--------*/
+.section-1{
+    padding: 50px 0;
+}
+.section-1 img{
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
+    padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------footer--------------*/
+footer{
+    background-color: #000000;
+    padding: 50px 0;
+}
+footer .row{
+    margin: 1.5rem 0;
+}
+footer p{
+    text-align: center;
+    color: gold;
+    margin-bottom: 1rem;
+}
+.imp-links a{
+    padding: 1rem;
+    color: gold;
+    text-align: center;
+}
+.imp-links a:hover{
+    text-decoration: none;
+    color: #ffec80;
+}
+div.favicons{
+    text-align:center;
+    padding-left: 6rem;
+}
+div.favicon-style{
+    background-color: gold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.favicon-style .fa{
+    color: black;
+}
+.policies{
+    display: flex;
+}
+.policies a{
+    color: gold;
+}
+.policies a:hover{
+    color: #ffec80;
+    text-decoration: none;
+}
+.cpy-right a{
+    color: gold;
+}
+.cpy-right a:hover{
+    color: #ffec80;
+    text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+    .header-top {
+        display: none;
+    }
+    .nav-logo-2{
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+
+    .navbar-brand {
+        flex: none;
+    }
+
+    .nav-collapse{
+        display: block;
+        text-align: center;
+        
+    }
+    .nav-collapse h4{
+        color: #ffffff;
+        font-family: 'Dancing Script', cursive;
+    }
+    footer p{
+        text-align: left;
+    }
+    div.favicons{
+        padding: 0;
+        
+    }
+    div.favicon-style{
+        margin-bottom: 1rem;
+    }
+}
